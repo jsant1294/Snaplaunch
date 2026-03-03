@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnapLaunch</title>
+  <meta name="description" content="Construimos sistemas generadores de clientes para negocios basados en servicios." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="lang-toggle" role="group" aria-label="Selector de idioma">
+        <button type="button" class="lang-btn" id="btn-en" aria-pressed="false">
+          <span class="flag" aria-hidden="true">🇺🇸</span>
+          <span class="lang-label">EN</span>
+        </button>
+
+        <span class="lang-divider" aria-hidden="true">|</span>
+
+        <button type="button" class="lang-btn is-active" id="btn-es" aria-pressed="true">
+          <span class="flag" aria-hidden="true">🇪🇸</span>
+          <span class="lang-label">ES</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+
+      <a class="brand" href="#home" aria-label="Inicio de SnapLaunch">
+        <span class="brand-mark" aria-hidden="true">🚀</span>
+        <span class="brand-name">SnapLaunch</span>
+      </a>
+
+      <!-- Hamburger (CSS only) -->
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Abrir menú" />
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="#home">Inicio</a>
+        <a href="#systems">Sistemas</a>
+        <a href="#work">Nuestro Trabajo</a>
+        <a href="#about">Acerca de</a>
+        <a href="#discovery" class="menu-cta">Descubrimiento</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero" style="background-image: linear-gradient(135deg, rgba(45, 52, 54, 0.85), rgba(45, 52, 54, 0.85)), url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="container hero-content">
+      <h1>Construimos Sistemas Generadores de Clientes<br>para Negocios Basados en Servicios.</h1>
+      <p class="muted">
+        Páginas de destino y embudos impulsados por estrategia, diseñados para convertir visitantes en clientes pagos.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#discovery">Reserva una Llamada Estratégica</a>
+        <a class="btn ghost" href="#systems">Ver Nuestros Servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SYSTEMS -->
+  <section id="systems" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Sistemas Construidos para Convertir Visitantes en Clientes</h2>
+        <p class="muted">Elige tu ruta de lanzamiento. Comienza pequeño, luego escala con nosotros.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-top">
+            <span class="badge">DIY</span>
+            <h3>Sistema de Plantillas</h3>
+          </div>
+          <div style="background: #f8f9fa; padding: 12px; border-radius: 6px; margin-bottom: 12px; font-size: 14px;">
+            <div style="font-weight: 600; color: #2d3436;">Desde $297</div>
+            <div class="muted" style="font-size: 13px;">Descarga e lanza en 1-2 días</div>
+          </div>
+          <p class="muted">Plantillas de alta conversión que puedes lanzar rápidamente, construidas para negocios de servicios.</p>
+          <ul class="list">
+            <li>Página de destino + secciones</li>
+            <li>Estructura de copia + diseño de CTA</li>
+            <li>Diseño mobile-first</li>
+          </ul>
+          <a class="btn primary w-full" href="#discovery">Explorar Plantillas</a>
+        </article>
+
+        <article class="card card-featured">
+          <div class="card-top">
+            <span class="badge badge-gold">Híbrido</span>
+            <h3>Plantilla + Configuración</h3>
+          </div>
+          <div style="background: #fff9e6; padding: 12px; border-radius: 6px; margin-bottom: 12px; font-size: 14px; border: 1px solid #ffe58f;">
+            <div style="font-weight: 600; color: #2d3436;">$1,497 (Más Popular)</div>
+            <div class="muted" style="font-size: 13px;">Configurado e en vivo en 5-7 días</div>
+          </div>
+          <p class="muted">Instalamos y configuramos tu sistema para que esté en vivo, limpio y listo para convertir.</p>
+          <ul class="list">
+            <li>Asistencia de configuración + lanzamiento</li>
+            <li>Captura de leads conectada</li>
+            <li>Seguimiento básico listo</li>
+          </ul>
+          <a class="btn primary w-full" href="#discovery">Iniciar Descubrimiento</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="badge badge-purple">Completamente Hecho Para Ti</span>
+            <h3>Construcción del Motor de Ingresos</h3>
+          </div>
+          <div style="background: #f8f9fa; padding: 12px; border-radius: 6px; margin-bottom: 12px; font-size: 14px;">
+            <div style="font-weight: 600; color: #2d3436;">$3,997+</div>
+            <div class="muted" style="font-size: 13px;">Construcción personalizada en 10-14 días</div>
+          </div>
+          <p class="muted">Construcción de embudo impulsada por estrategia, diseñada para generar leads y reservas de forma confiable.</p>
+          <ul class="list">
+            <li>Página personalizada + flujo de embudo</li>
+            <li>Soporte de posicionamiento de oferta</li>
+            <li>Lanzamiento + plan de optimización</li>
+          </ul>
+          <a class="btn primary w-full" href="#discovery">Reserva una Llamada</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Cómo Funciona</h2>
+        <p class="muted">De descubrimiento a sistema en vivo generador de clientes en días, no meses.</p>
+      </div>
+
+      <div class="timeline" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 20px; margin-top: 40px;">
+        <div style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 700; color: #ffffff; margin-bottom: 8px;">Día 1</div>
+          <div style="font-weight: 600; color: #ffffff; margin-bottom: 8px;">Llamada de Descubrimiento</div>
+          <p style="color: #ffffff; font-size: 14px; margin: 0;">Llamada estratégica de 30 min. Entendemos tu oferta, audiencia y objetivos.</p>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 700; color: #ffffff; margin-bottom: 8px;">Días 2-5</div>
+          <div style="font-weight: 600; color: #ffffff; margin-bottom: 8px;">Construcción y Configuración</div>
+          <p style="color: #ffffff; font-size: 14px; margin: 0;">Construimos/configuramos tu sistema, conectamos flujos de leads y configuramos seguimiento.</p>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 700; color: #ffffff; margin-bottom: 8px;">Día 6-7</div>
+          <div style="font-weight: 600; color: #ffffff; margin-bottom: 8px;">Revisión e Lanzamiento</div>
+          <p style="color: #ffffff; font-size: 14px; margin: 0;">Revisas, refinamos, y tu sistema se lanza.</p>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 700; color: #ffffff; margin-bottom: 8px;">Semana 2+</div>
+          <div style="font-weight: 600; color: #ffffff; margin-bottom: 8px;">Optimizar y Escalar</div>
+          <p style="color: #ffffff; font-size: 14px; margin: 0;">Monitorea resultados, itera mensajes, escala lo que funciona.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUESTRO TRABAJO -->
+  <section id="work" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Nuestro Trabajo</h2>
+        <p class="muted">Construcciones del mundo real diseñadas para generar leads, reservas e ingresos.</p>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">48h</div>
+          <div class="stat-label">Velocidad de Lanzamiento</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">Mobile</div>
+          <div class="stat-label">Diseño Primero</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">CTA</div>
+          <div class="stat-label">Diseño Impulsado</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">Seguimiento</div>
+          <div class="stat-label">Configuración Lista</div>
+        </div>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-thumb" aria-hidden="true"></div>
+          <div class="work-body">
+            <div class="work-top">
+              <h3>Embudo de Reserva para Entrenador Virtual</h3>
+              <span class="pill">Configuración Híbrida</span>
+            </div>
+            <p class="work-desc"><strong>Resultados:</strong> 12 llamadas calificadas desde la semana de lanzamiento. 8% CTR en CTA principal.</p>
+            <div style="background: #f0f7ff; padding: 12px; border-radius: 6px; margin: 12px 0; font-size: 13px;">
+              <strong>Lo que funcionó:</strong> Posicionamiento claro de oferta, copia enfocada en beneficios, flujo de reserva de 3 pasos
+            </div>
+            <div class="work-tags">
+              <span>Hero + Oferta</span><span>Testimonios</span><span>Integración Calendly</span>
+            </div>
+            <a class="btn primary w-full" href="#discovery">Ver Esta Construcción</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb alt" aria-hidden="true"></div>
+          <div class="work-body">
+            <div class="work-top">
+              <h3>Generación de Leads para Consultoría</h3>
+              <span class="pill pill-gold">Hecho Para Ti</span>
+            </div>
+            <p class="work-desc"><strong>Resultados:</strong> 24 leads en los primeros 30 días. 3.2% conversión de visitante a lead.</p>
+            <div style="background: #f0f7ff; padding: 12px; border-radius: 6px; margin: 12px 0; font-size: 13px;">
+              <strong>Lo que funcionó:</strong> Posicionamiento de autoridad, mensajes enfocados en ROI, calificación de leads de varios pasos
+            </div>
+            <div class="work-tags">
+              <span>Embudo Completo</span><span>Imán de Leads</span><span>Captura de Email</span>
+            </div>
+            <a class="btn primary w-full" href="#discovery">Ver Caso de Estudio</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb purple" aria-hidden="true"></div>
+          <div class="work-body">
+            <div class="work-top">
+              <h3>Pre-Reserva de Estudio Fotográfico</h3>
+              <span class="pill pill-purple">Sistema de Plantilla</span>
+            </div>
+            <p class="work-desc"><strong>Resultados:</strong> 14 reservas en 6 semanas usando nuestra plantilla. Auto-gestionado después del lanzamiento.</p>
+            <div style="background: #f0f7ff; padding: 12px; border-radius: 6px; margin: 12px 0; font-size: 13px;">
+              <strong>Lo que funcionó:</strong> Galería de portafolio, prueba social, mensajes de urgencia, flujo de reserva instantáneo
+            </div>
+            <div class="work-tags">
+              <span>Galería de Portafolio</span><span>Widget de Reserva</span><span>Pago Listo</span>
+            </div>
+            <a class="btn primary w-full" href="#discovery">Prueba Plantilla</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT (your provided structure, fixed + styled) -->
+  <section id="about" class="section section-about">
+    <div class="container">
+
+      <div class="section-head">
+        <h2>Socio de Rendimiento. No Solo un Generador de Páginas.</h2>
+        <p class="muted">
+          SnapLaunch combina estrategia, diseño y ejecución para construir sistemas que se sienten premium y generan clientes.
+        </p>
+      </div>
+
+      <div class="about-wrap">
+
+        <div class="about-main">
+          <div class="kicker">Construido para negocios de servicios</div>
+
+          <h3 class="about-title">
+            No estás comprando un sitio web.<br>
+            Estás comprando un camino de visitante → cliente.
+          </h3>
+
+          <p class="about-lead muted">
+            Construimos mensajes claros, jerarquía fuerte y flujo de CTA para que tu oferta se entienda rápidamente
+            y tus visitantes sepan exactamente qué hacer a continuación.
+          </p>
+
+          <div class="about-points">
+            <div class="point">
+              <div class="point-title">Socio</div>
+              <div class="point-sub muted">Alineamos tu oferta + audiencia + mensaje.</div>
+            </div>
+
+            <div class="point">
+              <div class="point-title">Experto</div>
+              <div class="point-sub muted">Diseño enfocado en conversión, ritmo de copia y prueba.</div>
+            </div>
+
+            <div class="point">
+              <div class="point-title">Operadores</div>
+              <div class="point-sub muted">Entregamos rápido e iteramos por ROI.</div>
+            </div>
+          </div>
+
+          <div class="about-actions">
+            <a class="btn primary" href="#discovery">Reserva una Llamada Estratégica</a>
+            <a class="btn ghost" href="#systems">Ver Sistemas</a>
+          </div>
+        </div>
+
+        <div class="about-side">
+          <div class="about-card2">
+            <div class="about-card-top">
+              <div class="about-badge" aria-hidden="true">⚡</div>
+              <div>
+                <div class="about-card-title">Lo que obtienes</div>
+                <div class="about-card-sub muted">Un sistema limpio construido para convertir.</div>
+              </div>
+            </div>
+
+            <div class="trust-strip" aria-label="Proceso de SnapLaunch">
+              <div class="step">
+                <div class="step-dot"></div>
+                <div>
+                  <div class="step-title">Estrategia</div>
+                  <div class="step-sub muted">Mapa de oferta + audiencia + CTA</div>
+                </div>
+              </div>
+
+              <div class="step">
+                <div class="step-dot"></div>
+                <div>
+                  <div class="step-title">Construcción</div>
+                  <div class="step-sub muted">Secciones de landing + embudo</div>
+                </div>
+              </div>
+
+              <div class="step">
+                <div class="step-dot"></div>
+                <div>
+                  <div class="step-title">Lanzamiento</div>
+                  <div class="step-sub muted">Seguimiento + publicación</div>
+                </div>
+              </div>
+
+              <div class="step">
+                <div class="step-dot"></div>
+                <div>
+                  <div class="step-title">Optimizar</div>
+                  <div class="step-sub muted">Iterar para mayor ROI</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-proof">
+              <div class="proof-item">
+                <div class="proof-big">48h</div>
+                <div class="proof-small muted">Velocidad de lanzamiento</div>
+              </div>
+              <div class="proof-item">
+                <div class="proof-big">Mobile</div>
+                <div class="proof-small muted">Diseño primero</div>
+              </div>
+              <div class="proof-item">
+                <div class="proof-big">EN/ES</div>
+                <div class="proof-small muted">Alternancia de idioma</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Preguntas Comunes</h2>
+        <p class="muted">Aquí está lo que necesitas saber antes de comenzar.</p>
+      </div>
+
+      <div style="max-width: 700px; margin: 0 auto;">
+        <details style="margin-bottom: 16px; border: 1px solid #e8e8e8; border-radius: 6px; padding: 16px; cursor: pointer;">
+          <summary style="font-weight: 600; color: #ffffff; user-select: none;">¿Qué tan rápido puedo lanzar?</summary>
+          <p style="margin-top: 12px; font-size: 14px; color: #ffffff;">Con nuestro Sistema de Plantillas, 1-2 días. Plantilla + Configuración (Híbrido), 5-7 días. Hecho Para Ti, 10-14 días. Priorizamos la velocidad sin sacrificar la conversión.</p>
+        </details>
+
+        <details style="margin-bottom: 16px; border: 1px solid #e8e8e8; border-radius: 6px; padding: 16px; cursor: pointer;">
+          <summary style="font-weight: 600; color: #ffffff; user-select: none;">¿Ofrecen soporte continuo?</summary>
+          <p style="margin-top: 12px; font-size: 14px; color: #ffffff;">Sí. Todos los paquetes incluyen soporte de lanzamiento. Los clientes Hecho Para Ti obtienen 30 días de soporte de optimización incluido. Ofrecemos paquetes de optimización mensual opcional para clientes que desean iteración continua.</p>
+        </details>
+
+        <details style="margin-bottom: 16px; border: 1px solid #e8e8e8; border-radius: 6px; padding: 16px; cursor: pointer;">
+          <summary style="font-weight: 600; color: #ffffff; user-select: none;">¿Qué si ya tengo un sitio web?</summary>
+          <p style="margin-top: 12px; font-size: 14px; color: #ffffff;">Podemos auditar tu sitio actual y construir una página de destino o embudo de alta conversión junto a él. Muchos clientes usan un sistema SnapLaunch separado para generar leads mientras mantienen su sitio principal como está.</p>
+        </details>
+
+        <details style="margin-bottom: 16px; border: 1px solid #e8e8e8; border-radius: 6px; padding: 16px; cursor: pointer;">
+          <summary style="font-weight: 600; color: #ffffff; user-select: none;">¿Pueden ayudar con mi mensajería/oferta?</summary>
+          <p style="margin-top: 12px; font-size: 14px; color: #ffffff;">Absolutamente. La Llamada de Descubrimiento es donde profundizamos en tu oferta y posicionamiento. Los clientes Hecho Para Ti reciben soporte de posicionamiento incluido. Ayudamos a refinar tu mensaje para resonar con tus clientes ideales.</p>
+        </details>
+
+        <details style="margin-bottom: 16px; border: 1px solid #e8e8e8; border-radius: 6px; padding: 16px; cursor: pointer;">
+          <summary style="font-weight: 600; color: #ffffff; user-select: none;">¿Qué sucede después del lanzamiento?</summary>
+          <p style="margin-top: 12px; font-size: 14px; color: #ffffff;">Monitoreamos tus datos de conversión y recomendamos optimizaciones. La mayoría de clientes ven sus mejores resultados en semanas 3-6 mientras refinamos CTAs, mensajes y segmentación basados en comportamiento real de visitantes.</p>
+        </details>
+
+        <details style="margin-bottom: 16px; border: 1px solid #e8e8e8; border-radius: 6px; padding: 16px; cursor: pointer;">
+          <summary style="font-weight: 600; color: #ffffff; user-select: none;">¿Quién realmente construye el sitio?</summary>
+          <p style="margin-top: 12px; font-size: 14px; color: #ffffff;">El equipo de SnapLaunch. No somos revendedores—construimos cada proyecto internamente. Trabajas directamente con nuestro equipo de estrategia y construcción de principio a fin.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCOVERY -->
+  <section id="discovery" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Comienza tu Descubrimiento</h2>
+        <p class="muted">Cuéntanos qué vendes, tu objetivo y tu cronograma. Recomendaremos el sistema correcto y el siguiente paso.</p>
+      </div>
+
+      <div style="max-width: 600px; margin: 40px auto;">
+        <form style="background: #f8f9fa; padding: 32px; border-radius: 8px;">
+          <div style="margin-bottom: 20px;">
+            <label for="email" style="display: block; font-weight: 600; color: #2d3436; margin-bottom: 8px;">Correo Electrónico *</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid #d4d4d4; border-radius: 6px; font-size: 14px; box-sizing: border-box;" placeholder="tu@email.com">
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <label for="business" style="display: block; font-weight: 600; color: #2d3436; margin-bottom: 8px;">¿Cuál es tu Necesidad de Negocio? *</label>
+            <select id="business" name="business" required style="width: 100%; padding: 12px; border: 1px solid #d4d4d4; border-radius: 6px; font-size: 14px; box-sizing: border-box;">
+              <option value="">Selecciona una opción...</option>
+              <option value="new-landing">Necesito una página de destino nueva</option>
+              <option value="lead-funnel">Quiero generar más leads</option>
+              <option value="booking-system">Necesito un sistema de reserva/citas</option>
+              <option value="existing-upgrade">Quiero mejorar mi sitio existente</option>
+              <option value="other">Otro / No estoy seguro</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <label for="message" style="display: block; font-weight: 600; color: #2d3436; margin-bottom: 8px;">Cuéntanos Más (Opcional)</label>
+            <textarea id="message" name="message" style="width: 100%; padding: 12px; border: 1px solid #d4d4d4; border-radius: 6px; font-size: 14px; box-sizing: border-box; min-height: 100px; font-family: inherit;" placeholder="¿Qué estás vendiendo? ¿Cuál es tu objetivo principal?"></textarea>
+          </div>
+
+          <button type="submit" style="width: 100%; padding: 14px; background: #2d3436; color: white; border: none; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; transition: background 0.3s ease;">Reserva una Llamada Estratégica</button>
+          
+          <p class="muted" style="text-align: center; margin-top: 12px; font-size: 13px;">Nos comunicaremos dentro de 2 horas durante horario comercial.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="muted">© <span id="year"></span> SnapLaunch. Construido para convertir.</div>
+      <div class="footer-links">
+        <a href="#home">Arriba</a>
+        <a href="#discovery">Descubrimiento</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Language switching
+    document.getElementById("btn-en").addEventListener("click", function() {
+      window.location.href = "index.html";
+    });
+
+    document.getElementById("btn-es").addEventListener("click", function() {
+      window.location.href = "es_spanish.html";
+    });
+  </script>
+
+  <!-- BOTONES DE ACCIÓN FLOTANTES -->
+  <div style="position: fixed; bottom: 20px; right: 20px; display: flex; gap: 12px; flex-direction: column; z-index: 1000;">
+    <!-- Botón WhatsApp -->
+    <a href="https://wa.me/14049925807" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; background: #25D366; color: white; border-radius: 50%; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s ease, box-shadow 0.2s ease; font-size: 24px;" title="Envíanos un mensaje en WhatsApp" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 6px 16px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
+      💬
+    </a>
+    <!-- Botón Llamar Ahora -->
+    <a href="tel:14049925807" style="display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; background: #2d3436; color: white; border-radius: 50%; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s ease, box-shadow 0.2s ease; font-size: 24px;" title="Llámanos ahora" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 6px 16px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)';">
+      ☎️
+    </a>
+  </div>
+
+</body>
+</html>
