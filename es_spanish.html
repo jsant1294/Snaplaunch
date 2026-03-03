@@ -472,6 +472,13 @@
     document.getElementById("btn-es").addEventListener("click", function() {
       window.location.href = "es_spanish.html";
     });
+
+    // Close mobile nav after clicking a menu link
+    document.querySelectorAll(".menu a").forEach(link => {
+      link.addEventListener("click", function() {
+        document.getElementById("nav-toggle").checked = false;
+      });
+    });
   </script>
 
   <!-- BOTONES DE ACCIÓN FLOTANTES -->
